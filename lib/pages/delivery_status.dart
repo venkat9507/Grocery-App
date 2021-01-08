@@ -49,6 +49,9 @@ class _DeliveryStatusState extends State<DeliveryStatus> {
           ),
           Text('No Scheduled Deliveries',style: TextStyle(color: Color(0xFF7653A3),fontWeight: FontWeight.bold,fontSize: 20),),
           Text('Browse through the store and add items',style: Theme.of(context).textTheme.bodyText2,),
+          SizedBox(
+            height: 5,
+          ),
           Container(
             height: 42,
             width: 150,
