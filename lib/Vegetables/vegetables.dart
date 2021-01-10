@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Store extends StatefulWidget {
+class vegetables extends StatefulWidget {
   @override
-  _StoreState createState() => _StoreState();
+  _vegetablesState createState() => _vegetablesState();
 }
 
-class _StoreState extends State<Store> {
+class _vegetablesState extends State<vegetables> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Store'),
-      ),
       body: SafeArea(child: Column(
         children: [
 

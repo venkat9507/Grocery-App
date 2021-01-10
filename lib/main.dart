@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_fth_new/Icons/Icons.dart';
-import 'package:flutter_app_fth_new/pages/Account.dart';
-import 'package:flutter_app_fth_new/pages/delivery_status.dart';
-import 'package:flutter_app_fth_new/pages/plans.dart';
-import 'package:flutter_app_fth_new/pages/store.dart';
-import 'package:flutter_app_fth_new/pages/wallet.dart';
-
+import 'package:flutter_app_fth_new/Bottom_nav_bar/Account.dart';
+import 'package:flutter_app_fth_new/Bottom_nav_bar/delivery_status.dart';
+import 'package:flutter_app_fth_new/Bottom_nav_bar/plans.dart';
+import 'package:flutter_app_fth_new/Bottom_nav_bar/store.dart';
+import 'package:flutter_app_fth_new/Bottom_nav_bar/wallet.dart';
+import 'package:flutter_app_fth_new/Transaction_History/transaction_history.dart';
+import 'package:flutter_app_fth_new/Transaction_History/wallet_balance.dart';
 void main() {
-  runApp(MyApp());
+  runApp(TransactionHistory());
 }
 
 class MyApp extends StatefulWidget {

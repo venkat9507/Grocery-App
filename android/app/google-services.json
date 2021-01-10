@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "249284721172",
+    "project_id": "digimart-44fde",
+    "storage_bucket": "digimart-44fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249284721172:android:016ee76a39d607feb2c501",
+        "android_client_info": {
+          "package_name": "com.digisailor.flutter_app_fth_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249284721172-r5eatjiv440t86l4sc7261vfkehln02c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digisailor.flutter_app_fth_new",
+            "certificate_hash": "0a3f1d7568d915ff6dd2a81ad6298d2a5e1b3a4e"
+          }
+        },
+        {
+          "client_id": "249284721172-eri430hjjktjckccm1p82s9bojv09tl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNtWnhg_jNJdkAHamZSNVWWqwrLonGrxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249284721172-eri430hjjktjckccm1p82s9bojv09tl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
