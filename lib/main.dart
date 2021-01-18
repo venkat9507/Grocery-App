@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_fth_new/About_Us/About_us.dart';
 import 'package:flutter_app_fth_new/Icons/Icons.dart';
 import 'package:flutter_app_fth_new/Bottom_nav_bar/Account.dart';
 import 'package:flutter_app_fth_new/Bottom_nav_bar/delivery_status.dart';
 import 'package:flutter_app_fth_new/Bottom_nav_bar/plans.dart';
 import 'package:flutter_app_fth_new/Bottom_nav_bar/store.dart';
 import 'package:flutter_app_fth_new/Bottom_nav_bar/wallet.dart';
+import 'package:flutter_app_fth_new/Offers/Offers.dart';
+import 'package:flutter_app_fth_new/Offers/offers_mainscreen.dart';
+import 'package:flutter_app_fth_new/Support/chat_bot.dart';
 import 'package:flutter_app_fth_new/Transaction_History/transaction_history.dart';
 import 'package:flutter_app_fth_new/Transaction_History/wallet_balance.dart';
+import 'package:flutter_app_fth_new/Vegetables/vegetables.dart';
 void main() {
-  runApp(TransactionHistory());
+  runApp(Vegetables());
 }
 
 class MyApp extends StatefulWidget {
@@ -35,6 +40,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primaryColor: Color(0xFF7653A3)),
       home: Scaffold(
@@ -98,7 +104,7 @@ class _MyAppState extends State<MyApp> {
                   children: [
                     MaterialButton(onPressed: (){
                       setState(() {
-                        currentScreen = Wallet();
+                        currentScreen = WalletBalance();
                         currentTab= 2;
                       });
                     },
